@@ -354,6 +354,7 @@ img{
        display: flex;
        justify-content: center;
        align-items: center;
+       flex-wrap: wrap;
        gap: 30px;
        font-size: var(--big-font-size);
        opacity: 0;
@@ -372,6 +373,14 @@ img{
             transform: translateY(0);
        }
 
+       & a{
+           color: #fff;
+           text-decoration: none;
+       }
+
+       & h2{
+        font-size: 30px;
+       }
     }
     
 }

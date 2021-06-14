@@ -292,6 +292,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 30px;
   font-size: var(--big-font-size);
   opacity: 0;
@@ -303,6 +304,11 @@ img {
     opacity: 1; }
   .work__overlay:hover > * {
     transform: translateY(0); }
+  .work__overlay a {
+    color: #fff;
+    text-decoration: none; }
+  .work__overlay h2 {
+    font-size: 30px; }
 
 /* ===== CONTACT =====*/
 .contact__input {
