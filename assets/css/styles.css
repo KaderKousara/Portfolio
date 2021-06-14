@@ -115,19 +115,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-weight: var(--font-semi);
-  /* &__menu{
-        @media screen and (max-width: 768px){
-            position: fixed;
-            top: var(--header-height);
-            right: -100%;
-            width: 80%;
-            height: 100%;
-            padding: 2rem;
-            background-color: var(--second-color);
-            transition: .5s;
-        }
-    } */ }
+  font-weight: var(--font-semi); }
   @media screen and (max-width: 768px) {
     .nav__list {
       position: absolute;
