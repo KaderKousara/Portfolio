@@ -1,4 +1,4 @@
-/* import Typed from '/assets/js/typed.js';
+import Typed from '/assets/js/typed.js';
 
 var options = {
 strings: ['Web Developer', 'Nice Guy','Fast-learner'],
@@ -7,7 +7,7 @@ backSpeed: 50,
 loop: true,
 };
 
-var typed = new Typed('.element', options); */
+var typed = new Typed('.element', options);
 
 /*===== MENU SHOW =====*/ 
 const showMenu = (toggleId, navId) =>{
