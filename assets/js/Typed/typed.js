@@ -1,5 +1,5 @@
-import { initializer } from './initializer.js.js.js';
-import { htmlParser } from './html-parser.js.js.js';
+import { initializer } from './initializer.js';
+import { htmlParser } from './html-parser.js';
 
 /**
  * Welcome to Typed.js!

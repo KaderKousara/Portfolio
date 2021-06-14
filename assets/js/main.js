@@ -1,4 +1,4 @@
-import Typed from '/assets/js/Typed.js/typed.js';
+import Typed from '/assets/js/Typed/typed.js';
 
 var options = {
 strings: ['Web Developer', 'Nice Guy','Fast-learner'],
