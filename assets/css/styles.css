@@ -326,8 +326,7 @@ img {
   border: none;
   outline: none;
   font-size: var(--normal-font-size);
-  cursor: pointer;
-  margin-left: auto; }
+  cursor: pointer; }
 
 /* ===== FOOTER =====*/
 .footer {
