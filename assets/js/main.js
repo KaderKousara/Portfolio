@@ -1,3 +1,19 @@
+$(document).ready(function(){
+       $(".work__img").slice(6).hide();
+
+       $("#loadMore").on("click", function(e){
+
+         e.preventDefault();
+         $(".work__img:hidden").slice(0, 3).show();
+         if($(".work__img:hidden").length == 0) {
+              $("#loadMore").text("No More Content").addClass("noContent");
+              sr.reveal('.work__img',{interval: 200});
+            }
+         
+         
+       });
+})
+
 import Typed from '/assets/js/Typed/typed.js';
 
 var options = {
@@ -65,7 +81,8 @@ sr.reveal('.skills__data',{interval: 200});
 sr.reveal('.skills__img',{delay: 600});
 
 /*SCROLL WORK*/
-sr.reveal('.work__img',{interval: 200}); 
+
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 200}); 
+
