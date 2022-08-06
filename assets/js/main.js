@@ -17,7 +17,7 @@ $(document).ready(function(){
 import Typed from '/assets/js/Typed/typed.js';
 
 var options = {
-strings: ['Web Developer', 'Nice Guy','Fast-learner'],
+strings: ['Web Developer', 'Problem Solver','Fast-learner'],
 typeSpeed: 50,
 backSpeed: 50,
 loop: true,
